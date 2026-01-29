@@ -1,0 +1,84 @@
+/* MONARCA – Estética Moderna con Carácter */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@500;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0b0b0b;
+    color: #eaeaea;
+    text-align: center;
+}
+
+.hero {
+    padding: 90px 20px 70px;
+    background: radial-gradient(circle at top, #1a1a1a 0%, #000000 60%);
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.4rem;
+    letter-spacing: 6px;
+    margin-bottom: 8px;
+}
+
+.sub {
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    opacity: 0.75;
+}
+
+.bloque {
+    padding: 70px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.bloque.oscuro {
+    background-color: #111111;
+}
+
+.bloque h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-style: italic;
+    opacity: 0.8;
+    font-size: 1.05rem;
+}
+
+.texto {
+    max-width: 720px;
+    margin: 24px auto 0;
+    line-height: 1.7;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin: 60px auto;
+    padding: 16px 36px;
+    background: linear-gradient(135deg, #25D366, #1da851);
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
+}
+
+footer {
+    padding: 35px 20px;
+    background-color: #000000;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    opacity: 0.75;
+}
